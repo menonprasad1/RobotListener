@@ -1,5 +1,9 @@
 __author__ = 'Prasad'
 
+#usage 
+#pybot --listener RobotListener:E;\\test1.txt
+#The ; is used deliberately as the Listener interprets : as a delimiter between arguments.
+
 import os
 import sys
 import time
